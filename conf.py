@@ -28,7 +28,7 @@ release = '0.1.0'
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+# extensions coming with Sphinx (named 'sphinx.ext.*') or your customconfluence_remove_title
 # ones.
 extensions = [ 'sphinxcontrib.confluencebuilder' ]
 
@@ -53,5 +53,5 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
+confluence_remove_title = False
 confluence_single_page = True
